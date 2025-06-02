@@ -10,7 +10,7 @@ interface StrapiService {
     icon?: {
       data?: {
         attributes?: {
-  return response.data.data.map((service: StrapiService) => ({
+          url?: string;
         };
       };
     };
